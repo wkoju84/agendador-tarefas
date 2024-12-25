@@ -63,6 +63,7 @@ public class TarefaService {
         }
     }
 
+    /*Metodo de alteração de Status*/
     public TarefaDTO alteraStatus(StatusNotificacaoEnum status, String id){
 
         try {
